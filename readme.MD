@@ -92,3 +92,8 @@ Algoritma adalah set urutan instruksi untuk mencapai suatu tujuan spesifik. Cont
 - Menemukan apa yang dicari pengguna (mesin pencari)
 - Mengurutkan, misalnya mengurutkan film berdasarkan rating
 DSA adalah tentang penggunaan struktur data dan algoritma untuk efisiensi penyimpanan, pengambilan, dan manipulasi data untuk menyelesaikan masalah
+
+# Konten/Topik
+0. Implementasi kompleksitas waktu `/loop-comparison`
+1. Fibonaci `/fibonacci`
+2. Array `/array`
