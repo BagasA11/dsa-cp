@@ -18,7 +18,7 @@ func SelectSort(arr []int) {
 				post = j
 			}
 
-			time.Sleep(time.Second)
+			// time.Sleep(time.Second)
 		}
 		temp := arr[i]
 		arr[i] = low

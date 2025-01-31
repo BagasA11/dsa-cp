@@ -17,7 +17,7 @@ func BubleSort(arr []int) {
 				arr[j] = arr[j+1]
 				arr[j+1] = temp
 			}
-			time.Sleep(time.Second)
+			// time.Sleep(time.Second)
 		}
 	}
 	fmt.Println("after: ", arr)

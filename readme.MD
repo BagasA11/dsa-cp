@@ -97,3 +97,4 @@ DSA adalah tentang penggunaan struktur data dan algoritma untuk efisiensi penyim
 0. Implementasi kompleksitas waktu `/loop-comparison`
 1. Fibonaci `/fibonacci`
 2. Array `/array`
+3. Linked List `/linkedlist`
