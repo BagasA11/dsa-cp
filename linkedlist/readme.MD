@@ -12,6 +12,7 @@ Senarai berantai digunakan dalam banyak skenario, seperti penyimpanan data dinam
 
 Senarai berantai terdiri dari simpul-simpul dengan beberapa jenis data, dan setidaknya satu penunjuk, atau tautan, ke simpul-simpul lain.
 ![alt text](../img_linkedlists_exwithvalues.svg)
+
 simpul pertama dalam sebuah daftar berantai disebut "Kepala", dan simpul terakhir disebut "Ekor".
 
 ## operasi linked list
@@ -122,3 +123,11 @@ if __name__ == "__main__":
 ```
 
 #### Menghapus Node
+Menghapus node adalah operasi memutus node dari rantai linked list, disertai menghapus memori dari node yang diputus.
+Langkah-langkah:
+1. Tentukan kepala dan target node yang ingin dihapus
+2. Jika node yang ingin dihapus adalah node kepala, maka return node setelah kepala, sebagai node kepala baru.
+3. Lakukan traversal node, dimana node berikutnya tidak null dan bukan node target.
+4. Jika node hasil traversal berikutnya null, maka return node kepala karena node target tidak ditemukan.
+5. Ganti nilai node traversal berikutnya dengan node setelah node berikutnya. Dengan begitu rantai node target akan terputus dari node sebelumnya.
+![alt text](../Linkedlist_deletion.png)

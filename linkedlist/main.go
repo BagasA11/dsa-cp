@@ -127,3 +127,7 @@ func search(head *Node, key int) bool {
 	}
 	return false
 }
+
+func (node1 *Node) Linking(node2 *Node) {
+	node1.Next = node2
+}
